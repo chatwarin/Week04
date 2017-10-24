@@ -1,14 +1,15 @@
 ﻿using System;
-
-
-namespace Lab1
+namespace Lab01
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
-            Console.Write("Hello");
+            string str;
+            Console.Write("Please enter value 1 : ");
+            int val1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(val1);
         }
     }
 }
+
