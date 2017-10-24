@@ -22,7 +22,7 @@ namespace Lab01
             Console.WriteLine("Name: {0}", name);
             Console.WriteLine("LastName: {0}", lname);
             Console.WriteLine("Student ID: {0}", std);
-            Console.WriteLine("Grade: {0}", grade);
+            Console.WriteLine("GDA: {0}", grade);
         }
     }
 }
